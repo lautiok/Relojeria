@@ -41,10 +41,6 @@ body {
   color: #fff;
 }
 
-* {
-  pointer-events: none;
-  user-select: none;
-}
 header {
   display: flex;
   justify-content: space-around;
@@ -67,6 +63,8 @@ header nav ul li a{
   color: #fff;
 }
 .container {
+  pointer-events: none;
+  user-select: none;
   display: flex;
   justify-content: center;
   background: rgb(0,0,0);
